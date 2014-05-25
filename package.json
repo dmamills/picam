@@ -1,0 +1,12 @@
+{
+  "name": "picam",
+  "version": "0.0.1",
+  "description": "small wraper for the raspiberry pi camera",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"need to test!\""
+  },
+  "repository":"https://github.com/dmamills/picam.git",
+  "author": "dmamills",
+  "license": "MIT"
+}

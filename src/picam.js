@@ -28,8 +28,8 @@ module.exports = {
       options = {};
     }
 
-    var cmd = 'raspistill' +parseOptions(options) +  '-o ' + filename;
-    if(config.debug) {
+    var cmd = 'raspistill' +parseOptions(options) +  ' -o ' + filename;
+    if(options.debug) {
       cb(null,null,null);
       console.log('cmd: ' + cmd);
       return;
